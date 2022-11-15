@@ -14,3 +14,7 @@ aside {
 main {
     flex: 1;
 }
+
+li {
+    display: flex;
+}
