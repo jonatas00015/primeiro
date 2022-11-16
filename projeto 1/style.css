@@ -15,6 +15,17 @@ main {
     flex: 1;
 }
 
-li {
+.lista1 {
     display: flex;
+    
 }
+
+.perfil {
+    width: 128px;
+}
+
+#ulTecnologias{
+    Display:flex ;
+
+}
+
