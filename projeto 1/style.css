@@ -1,13 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: #22212C;
+    padding: 40px;
+    
+}
+
+
 .container {
     display: flex;
-    gap: 1rem;
+    gap: 60px;
 }
-aside, main {
-    border: 1px solid;
+
+
+#divaside1 {
+    background-color: #302F3D;
+    text-align: center;
+    padding: 32px 0 ;
+    border-radius: 20px;
+    width: 348px;
+    height: 292px;
+   
+    
+}
+
+#divaside2 {
+
+    text-align: start;
+
+    background-color: #302F3D;
+    padding: 30px 40px ;
+    border-radius: 20px;
+    width: 348px;
+    height: 348px;
+    
+}
+
+#divaside3 {
+    background-color: #302F3D;
+    padding: 30px 20px ;
+    border-radius: 20px;
+    width: 348px;
+    height: 208px;
+    
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
     flex-basis: 25%;
+    gap: 30px;
 
 }
 
@@ -15,9 +63,31 @@ main {
     flex: 1;
 }
 
-.lista1 {
+#ul1 {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.li1 {
     display: flex;
+    gap:20px;
+    row-gap: 20px;
     
+}
+
+table {
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+th { 
+    background-color: #CB92B1;
+    border-radius: 30px;
+    width: 86px;
+    height: 24px;
+    
+  
 }
 
 .perfil {
