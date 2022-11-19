@@ -51,6 +51,14 @@ body {
     
 }
 
+#divaside4 {
+    background-color: #302F3D;
+    padding: 30px 20px ;
+    border-radius: 20px;
+
+
+}
+
 aside {
     display: flex;
     flex-direction: column;
@@ -74,6 +82,11 @@ main {
     gap:20px;
     row-gap: 20px;
     
+}
+
+#ul2{
+    padding: 20px 40px 40px ;
+
 }
 
 table {
