@@ -56,9 +56,13 @@ body {
     padding: 30px 20px ;
     border-radius: 20px;
 
-
 }
 
+#divaside5 {
+    background-color: #302F3D;
+    padding: 30px 20px ;
+    border-radius: 20px;
+}
 aside {
     display: flex;
     flex-direction: column;
@@ -69,6 +73,74 @@ aside {
 
 main {
     flex: 1;
+}
+
+#MyProjects{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #302F3D;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 0 31px;
+}
+
+#projects {
+    display: flex;
+    gap: 2rem;
+}
+
+.onix{
+    background-color: #302F3D;
+    border-radius: 20px;
+    padding: 30px 30px 0 30px;
+}
+.myonix {
+    display: flex;
+    gap: 1rem;
+    margin: 0 0 22px;
+}
+
+.ponix {
+    margin: 0 0 30px;
+}
+.listaonix {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    list-style: none;
+    margin: 0 0 30px;
+}
+.lionix{
+    display: flex;
+    gap: 1rem;
+    align-items:center;
+}
+
+#Recent{
+    padding: 30px;
+    margin: 30px 0 ;
+    border-radius: 20px;
+    background-color: #302F3D ;
+}
+
+#erro {
+    display: flex ;
+    gap: 3rem;
+    padding: 2rem;
+    background-color: #302F3D;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.h5erro {
+    margin: 1.25rem 0 0 ;
+}
+
+#ulerro{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
 }
 
 #ul1 {
@@ -85,7 +157,12 @@ main {
 }
 
 #ul2{
-    padding: 20px 40px 40px ;
+    padding: 20px 100px 40px 40px ;
+
+}
+
+#ul3{
+    padding: 20px 180px 40px 40px;
 
 }
 
