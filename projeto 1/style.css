@@ -9,9 +9,33 @@
 body {
     background-color: #22212C;
     padding: 40px;
+    font-family: 'Merriweather sans', sans-serif ;
+    color: #837E9F;
     
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    color: #837E9F;
+
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #837E9F;
+}
+
+p {
+    font-style: normal;
+    font-weight: 300;
+    color: #837E9F;
+}
+
+a{
+    text-decoration: none;
+}
 
 .container {
     display: flex;
@@ -55,6 +79,8 @@ body {
     background-color: #302F3D;
     padding: 30px 20px ;
     border-radius: 20px;
+    width: 348px;
+    height: 349px;
 
 }
 
@@ -62,6 +88,8 @@ body {
     background-color: #302F3D;
     padding: 30px 20px ;
     border-radius: 20px;
+    width: 348px;
+    height: 352px;
 }
 aside {
     display: flex;
@@ -169,6 +197,7 @@ main {
 table {
     padding: 0 10px;
     margin-top: 10px;
+    color: #22212C;
 }
 
 th { 
@@ -177,7 +206,9 @@ th {
     width: 86px;
     height: 24px;
     
-  
+}
+tr th p {
+    color: #22212C;
 }
 
 .perfil {
@@ -189,3 +220,6 @@ th {
 
 }
 
+img {
+    color: #837E9F;
+}
