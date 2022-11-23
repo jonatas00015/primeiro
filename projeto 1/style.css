@@ -46,12 +46,20 @@ a{
 #divaside1 {
     background-color: #302F3D;
     text-align: center;
-    padding: 32px 0 ;
+    padding: 10px 0 ;
     border-radius: 20px;
     width: 348px;
-    height: 292px;
-   
+    height: 292px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7); 
     
+}
+
+.perfil {
+    width: 128px;
+    border: solid 3px #ff0000;
+    border-radius: 100px;
+    margin: 30px;
+
 }
 
 #divaside2 {
@@ -63,6 +71,7 @@ a{
     border-radius: 20px;
     width: 348px;
     height: 348px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7); 
     
 }
 
@@ -72,8 +81,32 @@ a{
     border-radius: 20px;
     width: 348px;
     height: 208px;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7); 
+
 }
+
+#container2 {
+    display: flex;
+    gap: 1rem;
+    margin: 20px 0 0 10px;
+
+}
+
+#container2 div p {
+    background-color: #CB92B1;
+    border-radius: 20px;
+    text-align: center;
+    color:#22212C;
+    margin: 0 0 15px;
+    font-size: 12px;
+    width: 86px;
+    height: 24px;
+    padding: 3px;
+    font-weight: 600;
+
+}
+
+
 
 #divaside4 {
     background-color: #302F3D;
@@ -81,7 +114,17 @@ a{
     border-radius: 20px;
     width: 348px;
     height: 349px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7); 
 
+}
+
+#ul2{
+    padding: 20px 100px 0 40px;
+}
+
+#ul2 li {
+    margin: 0 0 15px;
+    font-size: 15px;
 }
 
 #divaside5 {
@@ -90,7 +133,19 @@ a{
     border-radius: 20px;
     width: 348px;
     height: 352px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7); 
 }
+
+#ul3{
+    padding: 20px 160px 0 40px;
+}
+
+#ul3 li {
+    margin: 0 0 15px;
+    font-size: 15px;
+}
+
+
 aside {
     display: flex;
     flex-direction: column;
@@ -111,6 +166,7 @@ main {
     border-radius: 20px;
     padding: 30px;
     margin: 0 0 31px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7); 
 }
 
 #projects {
@@ -122,27 +178,37 @@ main {
     background-color: #302F3D;
     border-radius: 20px;
     padding: 30px 30px 0 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7); 
+    
 }
+
+.div-li {
+    display: flex;
+    gap: 2rem;
+}
+
 .myonix {
     display: flex;
     gap: 1rem;
     margin: 0 0 22px;
 }
 
-.ponix {
+.p-onix {
     margin: 0 0 30px;
 }
 .listaonix {
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    justify-content: space-between;
     list-style: none;
     margin: 0 0 30px;
+    gap:2rem;
 }
 .lionix{
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     align-items:center;
+    font-size: 14px;
 }
 
 #Recent{
@@ -150,6 +216,7 @@ main {
     margin: 30px 0 ;
     border-radius: 20px;
     background-color: #302F3D ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7); 
 }
 
 #erro {
@@ -159,6 +226,7 @@ main {
     background-color: #302F3D;
     border-radius: 20px;
     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7); 
 }
 
 .h5erro {
@@ -169,6 +237,10 @@ main {
     display: flex;
     list-style: none;
     gap: 1rem;
+}
+
+#img-erro {
+    width: 128px;
 }
 
 #ul1 {
@@ -182,44 +254,4 @@ main {
     gap:20px;
     row-gap: 20px;
     
-}
-
-#ul2{
-    padding: 20px 100px 40px 40px ;
-
-}
-
-#ul3{
-    padding: 20px 180px 40px 40px;
-
-}
-
-table {
-    padding: 0 10px;
-    margin-top: 10px;
-    color: #22212C;
-}
-
-th { 
-    background-color: #CB92B1;
-    border-radius: 30px;
-    width: 86px;
-    height: 24px;
-    
-}
-tr th p {
-    color: #22212C;
-}
-
-.perfil {
-    width: 128px;
-}
-
-#ulTecnologias{
-    Display:flex ;
-
-}
-
-img {
-    color: #837E9F;
 }
